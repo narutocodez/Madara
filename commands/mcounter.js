@@ -1,0 +1,1 @@
+const{MessageEmbed}=require('discord.js');module.exports={name: 'mcounter',async execute(client, message, args){const embed=new MessageEmbed().setTitle('Member Count').setDescription(`We currently have \`${message.guild.memberCount}\` Members in the server!`).setColor('RANDOM').setTimestamp(); message.channel.send(embed);}};

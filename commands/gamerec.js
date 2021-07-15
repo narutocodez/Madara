@@ -1,0 +1,1 @@
+module.exports={ name: 'gamerec',execute(client, message, args){message.channel.send('**These are some games i would recommend: Battlefield 4, OSU!, Battlefield 2042, COD Cold War, COD Warzone, COD MW, Fire Emblem (Nintendo Switch), COD BO1, COD BO2, Hitman, Control, Microsoft Flight Simulator, Doom: Eternal, Forza Horizon 4, Minecraft, Gran Turismo 7!, Rouge Company**')}};

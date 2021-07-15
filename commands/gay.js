@@ -1,0 +1,1 @@
+module.exports={name: 'gay',execute(client, message, args){message.channel.send("<@830933518351335454>")}};

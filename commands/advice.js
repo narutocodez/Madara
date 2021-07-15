@@ -1,0 +1,2 @@
+const{Random}=require("something-random-on-discord");module.exports={name: "advice", category: "fun",async execute(client, message, args){let data = await Random.getAdvice();
+message.channel.send(data)}};

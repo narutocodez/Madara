@@ -1,0 +1,1 @@
+module.exports={name: "botping",category: "info",usage: "ping",execute(client, message, args){if(message.member.hasPermission("ADMINISTRATOR")){message.channel.send(`**Ping** ${client.ws.ping}`);}}};

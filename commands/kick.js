@@ -1,0 +1,1 @@
+module.exports={name: 'kick',execute(client, message, args){const target=message.mentions.users.first();if(message.member.hasPermission("ADMINISTRATOR")){if(target){const memberTarget=message.guild.members.cache.get(target.id);memberTarget.kick();message.channel.send("User has been kicked!");}else{message.channel.send(`You need to mention a @user in order to kick!`);}}}};

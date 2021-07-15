@@ -1,0 +1,1 @@
+const{tictactoe}=require('reconlx');module.exports={name : 'tictactoe',async execute(client, message, args){const member=message.mentions.members.first();if(!member) return message.channel.send('Please mention a @user to play against');new tictactoe({player_two: member, message: message})}};
